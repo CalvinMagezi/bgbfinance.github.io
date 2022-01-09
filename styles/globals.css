@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbarLink {
+    @apply hover:scale-105 hover:text-red-600 text-sm  lg:text-lg transition duration-100 hover:border-b border-red-600;
+  }
+  .title {
+    @apply text-4xl text-white py-5 font-bold;
+  }
+  .subtitle {
+    @apply text-xl text-white py-5 font-bold;
+  }
+  .inputIcon {
+    @apply flex items-center justify-center flex-grow p-2 space-x-1 cursor-pointer hover:bg-gray-100 rounded-xl;
+  }
+  .btn {
+    @apply transition-all duration-150 ease-out cursor-pointer h-7 hover:scale-125;
+  }
+  .themeBtn {
+    @apply px-3 font-semibold text-white rounded-lg cursor-pointer hover:text-black hover:bg-gray-100;
+  }
+  .basicBodyBg {
+    @apply text-white bg-blue-900;
+  }
+  .rubyBodyBg {
+    @apply text-white bg-red-600;
+  }
+  .roseBodyBg {
+    @apply text-white bg-pink-600;
+  }
+  .techBodyBg {
+    @apply text-white bg-green-800;
+  }
+  .mobileSidebarBtn {
+    @apply px-3 py-2 font-bold transition duration-300 bg-gray-600 rounded-r-full focus:animate-pulse bg-opacity-40;
+  }
+  .searchPageButton {
+    @apply px-4 py-2 transition duration-100 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100;
+  }
+  .sportsFilter {
+    @apply py-3 text-xl font-bold uppercase;
+  }
+  .dashboardStatistic {
+    @apply flex flex-col items-center px-5 py-3 space-y-3 text-left dark:text-indigo-800 dark:bg-[whitesmoke] text-white transition duration-200 bg-gray-900 rounded-md shadow-md cursor-pointer hover:scale-105 hover:bg-gray-700 hover:animate-pulse;
+  }
+  .categoryChoice {
+    @apply relative flex flex-col items-center justify-center w-full h-40 transition duration-150 border-4 border-indigo-800 rounded-md shadow-lg cursor-pointer bg-opacity-70 hover:scale-90 focus:scale-90;
+  }
+}
