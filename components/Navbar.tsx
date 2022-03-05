@@ -10,7 +10,7 @@ function Navbar() {
       className={`${
         navbar
           ? "absolute hidden z-0 w-0 h-0"
-          : "w-full z-50 sticky top-0 bg-[whitesmoke]"
+          : "w-full z-50 sticky top-0 bg-[whitesmoke] text-black"
       }`}
     >
       <div className="flex items-center justify-between px-10 py-5 lg:px-20">

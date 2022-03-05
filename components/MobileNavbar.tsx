@@ -20,7 +20,7 @@ function MobileNavbar() {
       ></div>
 
       <Box className="z-50 flex flex-col items-center w-3/5 h-screen ">
-        <ul className="flex flex-col space-y-5 items-center mt-10 px-10 py-10 rounded-lg bg-[whitesmoke]">
+        <ul className="flex flex-col space-y-5 items-center mt-10 px-10 py-10 rounded-lg bg-[whitesmoke] text-black">
           <li onClick={() => setNavbar(false)}>
             <AiOutlineCloseCircle className="text-xl text-red-600" />
           </li>

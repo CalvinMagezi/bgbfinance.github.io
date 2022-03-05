@@ -6,6 +6,7 @@ import Footer from "@/components/Footer";
 import MobileNavbar from "@/components/MobileNavbar";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
+import ContactForm from "@/components/utils/ContactForm";
 import Head from "next/head";
 
 function HomePage() {
@@ -23,6 +24,7 @@ function HomePage() {
         <Services />
         <CoreValues />
         <Contact />
+        <ContactForm />
       </main>
       <Footer />
     </div>
